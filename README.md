@@ -21,3 +21,20 @@ Hey, this repository will help you set up your webapp for lunar image segmentati
 * We used all the other remaining images for validation except the last 4 which we used as test set.
 * This model on Validation set gave 80% IOU on average.
 * The model was trained as a part of training program at [Spartificial](https://spartificial.com/).
+
+## Dataset
+
+Artificial Lunar Rocky Landscape Dataset by Romain Pessia and Genya Ishigami of the Space Robotics Group, Keio University, Japan
+
+- **License**: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)  
+- **Source**: [Kaggle Dataset Link](https://www.kaggle.com/datasets/romainpessia/artificial-lunar-rocky-landscape-dataset)  
+- Note: Models trained using this dataset (e.g., LunarModel.h5) are licensed under the same terms (non-commercial, ShareAlike).
+
+## Licensing
+
+- **Code**: The code in this repository (including the FastAPI backend, Streamlit frontend, and related scripts) is licensed under the **[Apache 2.0](https://github.com/AnshKGoyal/lunar-segmentation-app/blob/main/LICENSE)** license.
+
+- **Models**: Models trained on the above datasets are governed by CC BY-NC-SA 4.0 license. Please refer to the Datasets section for details.
+
+# Additional Repository Recommendation
+- checkout https://github.com/AnshKGoyal/ML4A-gans-and-segmentation/ , its a web app for lunar surface segmentation and space image colorization using FastAPI, Streamlit, and deep learning models.To train the GANs i used WGANs-gp.
